@@ -17,13 +17,14 @@
 		<label for="email">Email:</label>
 		<input type="email" id="email" placeholder="Email" required></input>
 	<br><br>
-		<label for="gender_m,gender_f">Gender:</label>
+		<label>Gender:</label>
 		<input type="radio"  id="gender_m" required>Male</input>
 		<input type="radio"  id="gender_f" required>Female</input>
 		
 		<br><br>
-		<label for="cars">Car Brands:</label>
-	<select id="cars">
+		<label for="cars" id="cars">Car Brands:</label>
+	<select id="cars" name="cars" requried>
+		<option value="" disabled selected>--Please choose an option--</option>
 		<option value="Toytta">Toytta</option>
 		<option value="Bmw">BMW</option>
 		<option value="Suzuki">Suzuki</option>
